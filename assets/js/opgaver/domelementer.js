@@ -88,3 +88,15 @@ const myData = {
 };
 
 // din kode her
+let opgaveFour = document.getElementById('opgaveFour');
+
+let titleElement = document.createElement('h1');
+titleElement.innerHTML = myData.name;
+let descriptionElement = document.createElement('p');
+descriptionElement.innerHTML = myData.description;
+let imageElement = document.createElement('img');
+imageElement.src = myData.image;
+
+opgaveFour.appendChild(titleElement);
+opgaveFour.appendChild(imageElement);
+opgaveFour.appendChild(descriptionElement);
