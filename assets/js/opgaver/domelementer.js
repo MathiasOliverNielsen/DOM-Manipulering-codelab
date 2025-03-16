@@ -55,6 +55,26 @@ myElement.children[0].innerHTML til at ændre 1. child elements inner html.
 
 // din kode her
 
+// brug af array
+purpleFigures[0].children[0].innerHTML = 'RED';
+purpleFigures[1].children[0].innerHTML = 'RED';
+purpleFigures[2].children[0].innerHTML = 'RED';
+
+// if statements for de første 3 elementer
+// if (purpleFigures.length > 0) {
+//   purpleFigures[0].children[0].innerHTML = 'RED';
+// }
+// if (purpleFigures.length > 1) {
+//   purpleFigures[1].children[0].innerHTML = 'RED';
+// }
+// if (purpleFigures.length > 2) {
+//   purpleFigures[2].children[0].innerHTML = 'RED';
+// }
+
+// Loop for alle elementer
+// for (let i = 0; i < purpleFigures.length; i++) {
+//   purpleFigures[i].children[0].innerHTML = 'RED';
+// }
 /* opgave 4
 opret DOM elementer i elementet med id opgaveFour, udfra data objectet myData.
 Du skal vælge element tags der giver mening i forbindelse med HTML5 semantisk tagging.
