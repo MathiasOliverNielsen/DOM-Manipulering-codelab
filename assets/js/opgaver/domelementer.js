@@ -45,6 +45,8 @@ array.from beskrivelse HER: https://developer.mozilla.org/en-US/docs/Web/JavaScr
 */
 
 // din kode her
+purpleFigures = Array.from(purpleFigures);
+purpleFigures.map((element) => (element.style.backgroundColor = 'red'));
 
 /* opgave 3.3
 Brug din array til at ændre h3 elementets, inden i purpleFigures, tekst til RED. du kan bruge
