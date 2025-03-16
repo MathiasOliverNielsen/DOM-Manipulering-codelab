@@ -27,11 +27,8 @@ Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
 // din kode her
 let myHTwo = document.createElement('h2');
 myHTwo.innerHTML = 'Opgave 2.1 løsning';
-let myparagrath = document.createElement('p');
-myparagrath.innerHTML = 'Jeg har løst opgave 2.1';
-let myElement = document.getElementById('opgaveTwo');
-myElement.appendChild(myHTwo);
-myElement.appendChild(myparagrath);
+let myP = document.createElement('p');
+myP.innerHTML = 'Jeg har løst opgave 2.1';
 
 // opgave 3 liveHTML lists
 /* opgave 3.1
@@ -39,7 +36,8 @@ Du skal finde alle elementer med klassen purpleFigures og console logge resultat
 */
 
 // din kode her
-
+let purpleFigures = document.getElementsByClassName('purpleFigures');
+console.log(purpleFigures);
 /* opgave 3.2
 Du skal finde alle elementer med klassen purpleFigures og bruge array.from() til at konvertere listen
 til et array hvor du kan bruge map funktionen til at ændre baggrundsfarven til rød.
