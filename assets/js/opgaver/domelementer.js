@@ -14,9 +14,9 @@ console.log(yellowFigure);
 Du skal ændre baggrundsfarve på de to elementer du har fundet i opgave 1.1
 farven på elementerne skal være blå. brug evt. elelement.style.backgroundColor
 */
+// din kode her
 redFigure.style.backgroundColor = 'blue';
 yellowFigure.style.backgroundColor = 'blue';
-// din kode her
 
 /* opgave 2.1
 Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
@@ -25,6 +25,13 @@ Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
 */
 
 // din kode her
+let myHTwo = document.createElement('h2');
+myHTwo.innerHTML = 'Opgave 2.1 løsning';
+let myparagrath = document.createElement('p');
+myparagrath.innerHTML = 'Jeg har løst opgave 2.1';
+let myElement = document.getElementById('opgaveTwo');
+myElement.appendChild(myHTwo);
+myElement.appendChild(myparagrath);
 
 // opgave 3 liveHTML lists
 /* opgave 3.1
