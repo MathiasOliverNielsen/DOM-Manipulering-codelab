@@ -14,7 +14,8 @@ console.log(yellowFigure);
 Du skal ændre baggrundsfarve på de to elementer du har fundet i opgave 1.1
 farven på elementerne skal være blå. brug evt. elelement.style.backgroundColor
 */
-
+redFigure.style.backgroundColor = 'blue';
+yellowFigure.style.backgroundColor = 'blue';
 // din kode her
 
 /* opgave 2.1
