@@ -27,8 +27,12 @@ Du skal oprette følgende HTML elementer i Elementet med id opgaveTwo.
 // din kode her
 let myHTwo = document.createElement('h2');
 myHTwo.innerHTML = 'Opgave 2.1 løsning';
+let opgaveTwo = document.getElementById('opgaveTwo');
+opgaveTwo.appendChild(myHTwo);
+
 let myP = document.createElement('p');
 myP.innerHTML = 'Jeg har løst opgave 2.1';
+opgaveTwo.appendChild(myP);
 
 // opgave 3 liveHTML lists
 /* opgave 3.1
